@@ -14,7 +14,7 @@ public class NotFoundExceptionMapper implements
 		ExceptionMapper<NotFoundException> {
 	private static Logger logger = Logger.getLogger(NotFoundExceptionMapper.class);
 
-	private static String defaultError = "Not Found.";
+	private static String defaultError = "welcome to Bookzy.";
 	
 
 	@Override
